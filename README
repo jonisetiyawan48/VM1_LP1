@@ -1,4 +1,6 @@
-apt install python3-pip
+
+apt install python3
+apt install python3-pip --break-system-packages
 pip install Flask
 apt install sqlite3
 edit bagian nano app.py  bagian ip dengan ip server kalian
