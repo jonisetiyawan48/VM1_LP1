@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{ news_item.title }}</h2>
+<p>{{ news_item.content }}</p>
+
+<h3>Komentar</h3>
+<ul>
+    {% for comment in comments %}
+    <li>{{ comment.content }}</li>
+    {% endfor %}
+</ul>
+
+<h4>Tinggalkan Komentar</h4>
+<form method="POST">
+    <!-- key: rahasia_data -->
+    <textarea name="content" required></textarea>
+    <button type="submit">Kirim</button>
+</form>
+<a href="/">Kembali ke Dashboard</a>
+{% endblock %}
