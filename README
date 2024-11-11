@@ -1,7 +1,7 @@
 
 apt install python3
-apt install python3-pip --break-system-packages
-pip install Flask
+apt install python3-pip 
+pip install Flask --break-system-packages
 apt install sqlite3
 edit bagian nano app.py  bagian ip dengan ip server kalian
 jalankan command ini "python3 app.py" didalam folder VM1_LP1 
