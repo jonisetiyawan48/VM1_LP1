@@ -1,4 +1,4 @@
 apt install python3-pip
 pip install Flask
 apt install sqlite3
-python3 app.py
+jalankan command ini "python3 app.py" didalam folder VM1_LP1 
